@@ -33,7 +33,7 @@
     <TargetVersion>Windows10</TargetVersion>
     <UseDebugLibraries Condition="'$(Configuration)'=='Debug'">true</UseDebugLibraries>
     <UseDebugLibraries Condition="'$(Configuration)'=='Release'">false</UseDebugLibraries>
-    <PlatformToolset>WindowsKernelModeDriver10.0</PlatformToolset>
+    <PlatformToolset>LLVM-MSVC_v143_KernelMode</PlatformToolset>
     <ConfigurationType>Driver</ConfigurationType>
     <DriverTargetPlatform>Desktop</DriverTargetPlatform>
     <DriverType>WDM</DriverType>
