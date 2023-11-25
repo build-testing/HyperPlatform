@@ -37,6 +37,7 @@
     <ConfigurationType>Driver</ConfigurationType>
     <DriverTargetPlatform>Desktop</DriverTargetPlatform>
     <DriverType>WDM</DriverType>
+    <Driver_SpectreMitigation>false</Driver_SpectreMitigation>
   </PropertyGroup>
   <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Driver_SpectreMitigation>false</Driver_SpectreMitigation>
